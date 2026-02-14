@@ -29,4 +29,5 @@ API keys are handled via Render Environment Variables. No secrets are stored in 
 4. Here are my homework instructions, I have already gotten decently far into this but it just isnt working, I have attached my files (Backend: app.py, requirements.txt, resume_data.txt, .gitignore) (Frontend: index.html, script.js, style.css)
 5. my logs on render dont say anything except ==> Port scan timeout reached, no open HTTP ports detected. If you don't need to receive public HTTP traffic, create a private service instead.
 When i test it in my website, theres literally nothing in the console about it. dont go ahead onto future steps, im trying to debug it right now
-6. 
+6. AI: Backend Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+7. 
