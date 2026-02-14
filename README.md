@@ -25,4 +25,8 @@ API keys are handled via Render Environment Variables. No secrets are stored in 
 (Lots of debugging with using Gemini's API keys)
 2. wait i want to add this to my existing website on github pages, could you go back over phase 1? I will upload my website files here
 3. ok wait before we move to phase 4, how do i check that this works
-4. 
+(Lots of debugging again because it isn't working)
+4. Here are my homework instructions, I have already gotten decently far into this but it just isnt working, I have attached my files (Backend: app.py, requirements.txt, resume_data.txt, .gitignore) (Frontend: index.html, script.js, style.css)
+5. my logs on render dont say anything except ==> Port scan timeout reached, no open HTTP ports detected. If you don't need to receive public HTTP traffic, create a private service instead.
+When i test it in my website, theres literally nothing in the console about it. dont go ahead onto future steps, im trying to debug it right now
+6. 

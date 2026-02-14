@@ -16,21 +16,30 @@ with open("resume_data.txt", "r") as f:
 
 @app.route('/chat', methods=['POST'])
 def chat():
-    user_message = request.json.get('message')
-    
-    # The "System Prompt" tells the AI how to behave
-    prompt = f"""
-    You are an AI assistant representing a student. 
-    Use the following resume context to answer the user's question. 
-    If the answer isn't in the context, say you're not sure but offer to 
-    provide the student's email. Keep answers professional and brief.
+    try:
+        user_message = request.json.get('message')
+        
+        # Check if message exists to prevent empty prompt errors
+        if not user_message:
+            return jsonify({"response": "Error: No message provided."}), 400
 
-    Context: {resume_context}
-    User Question: {user_message}
-    """
-    
-    response = model.generate_content(prompt)
-    return jsonify({"response": response.text})
+        prompt = f"""
+        You are an AI assistant representing a student. 
+        Use the following resume context to answer the user's question. 
+        If the answer isn't in the context, say you're not sure but offer to 
+        provide the student's email. Keep answers professional and brief.
+
+        Context: {resume_context}
+        User Question: {user_message}
+        """
+        
+        response = model.generate_content(prompt)
+        return jsonify({"response": response.text})
+
+    except Exception as e:
+        # This will print the ACTUAL error to your Render logs
+        print(f"!!! GEMINI ERROR: {e} !!!")
+        return jsonify({"response": f"Backend Error: {str(e)}"}), 500
 
 if __name__ == '__main__':
     # Use the PORT provided by Render, or default to 5000 locally
