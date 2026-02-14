@@ -30,4 +30,4 @@ API keys are handled via Render Environment Variables. No secrets are stored in 
 5. my logs on render dont say anything except ==> Port scan timeout reached, no open HTTP ports detected. If you don't need to receive public HTTP traffic, create a private service instead.
 When i test it in my website, theres literally nothing in the console about it. dont go ahead onto future steps, im trying to debug it right now
 6. AI: Backend Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
-7. 
+(More issues with Gemini's quotas (apparently 0 for flash2.0?))
