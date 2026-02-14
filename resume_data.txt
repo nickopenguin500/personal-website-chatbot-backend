@@ -1,0 +1,42 @@
+Resume:
+Nicholas H. Weng
+nicholasweng02@gmail.com ·· www.linkedin.com/in/nicholasweng
+EDUCATION    
+Carnegie Mellon University, Pittsburgh, PA						          May 2029
+Bachelor of Science in Electrical and Computer Engineering
+Overall GPA: 3.73/4.00
+Selected Coursework: Concepts of Mathematics, Intro to ECE, Fundamentals of Programming and Computer Science, Calc in 3D*, Principles of Imperative Computation*, Coding with AI*	     *Spring 2026
+H. B. Plant High School, Tampa, FL							          May 2025
+2025 National Merit Finalist
+Relevant AP Courses: Calculus BC (5), Computer Science A (5), Physics C: Mech. (5) E&M (5)RESEARCH
+Student Science Training Program, Univ. of Florida				              June-July 2024
+Researched under Dr. Ryan W. Houim at the University of Florida’s Department of Aerospace and Mechanical Engineering in an aerospace lab.
+Simulated a hot-gas side jet in a supersonic freestream using Python; Linux; HyBurn, a multiphase reactive flow code; and HiPerGator, UF’s supercomputer, under the mentorship of two PhD students.
+Collected/analyzed data, composed a research paper, made a poster, and presented.
+Attended many UF professors’ research seminars and took a Digital Logic honors seminar leadership course.
+
+LEADERSHIP
+Vice President and Tutor, Plant Mu Alpha Theta Honor Society		            January 2021-May 2025
+Competed in District-National Math Competitions
+Tutored students on a volunteer basis after school Tuesday-Thursday
+Organized competitions and events for hundreds of student members
+Volunteer, Global Leadership Adventures - Sea Turtle Initiative					    2023
+Patrolled the Parismina, Costa Rica beaches to protect sea turtles’ eggs from poachers
+Planted trees in the Parismina community
+
+HONORS
+5th place Mu Comprehensive (National, Florida Association of Mu Alpha Theta)		    2025
+5th place Mu Gemini (National, Florida Association of Mu Alpha Theta)				    2025
+12th place Open Gemini (State, Florida Association of Mu Alpha Theta)				    2024
+
+ACTIVITIES
+CMU ScottyLabs (DevOps team)								    2025
+CMU Club Swimming, CMU All University Orchestra, CMU Esports				    2025
+Plant High School Wind Ensemble / Symphonic Band	(Trumpet)			        2022-2025
+Plant High School Marching Band (Trumpet)						        2022-2025
+
+SKILLS
+Programming: JavaScript, Java, Python
+Tools & Frameworks: GitHub, VS Code, IntelliJ, Linux
+Electrical and Computer Engineering: Oscilloscope, Breadboard, Digital Logic, Circuit Analysis
+Spoken Languages: English (fluent), Mandarin (conversational)

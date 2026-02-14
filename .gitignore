@@ -1,0 +1,13 @@
+# MUST HIDE: API Keys and Secrets
+.env
+*.env
+
+# Python clutter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS clutter
+.DS_Store
